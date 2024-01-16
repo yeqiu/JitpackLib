@@ -51,7 +51,7 @@ publishing {
             //仅仅只是本地测试使用，jitpack不会使用
             groupId = "com.github.yeqiu"
             artifactId = "jitpackLib"
-            version = "0.0.1"
+            version = "1.0.0"
             afterEvaluate { // 在所有的配置都完成之后执行
                 // 从当前 module 的 release 包中发布
                 from(components["release"])
